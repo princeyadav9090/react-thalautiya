@@ -1,6 +1,7 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import UserNavbar from "./UserNavbar";
 
 
 import Feedbacks from "./Feedbacks";
@@ -14,6 +15,7 @@ import Courses from './Courses';
 export {
   Hero,
   Navbar,
+  UserNavbar,
   Feedbacks,
   Contact,
   CanvasLoader,
