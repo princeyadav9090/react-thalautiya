@@ -25,19 +25,42 @@ import {
   threejs,
 } from "../assets";
 
-export const navLinks = [
+export const userNavLinks =[
   {
-    id: "about",
-    title: "About",
+    id: "/users/profile",
+    title: "Profile",
   },
   {
-    id: "courses",
+    id: "/users/courses",
+    title: "Courses",
+  },
+  {
+    id: "/contact",
+    title: "Contact",
+  },
+  {
+    id:"/users/logout",
+    title:"Logout"
+  }
+]
+export const navLinks = [
+  {
+    id: "/about",
+    title: "About",
+  },
+  
+  {
+    id:"/login",
+    title:"Login"
+  },
+  {
+    id: "/courses",
     title: "Courses",
   },
   {
     id: "contact",
     title: "Contact",
-  },
+  }
 ];
 
 const why_to_choose = [ 
